@@ -1,0 +1,10 @@
+X=int(input("ENTER X VALUE:"))
+
+if (X>0):
+    print("it is a positive number")
+    
+elif (X==0):
+    print("it is zero")
+
+else:
+    print("it is a negative number")
