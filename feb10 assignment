@@ -1,0 +1,17 @@
+sname=input("enter name:")
+sno=int(input("enter no:"))
+sgroup=input("enter group:")
+s1=int(input("enter hindi marks:"))
+s2=int(input("enter english marks:"))
+s3=int(input("enter environmental education marks:"))
+s4=int(input("enter analatical skills marks:"))
+s5=int(input("enter online business marks:"))
+s6=int(input("enter maths marks:"))
+s7=int(input("enter physics marks:"))
+s8=int(input("enter artificial intelligence marks:"))
+
+if s1>=28 and s2>=28 and s3>=28 and s4>=28 and s5>=28 and s6>=28 and s7>=28 and s8>=28:
+     print("pass")
+else:
+    print("fail")
+
